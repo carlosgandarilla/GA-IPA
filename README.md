@@ -19,3 +19,5 @@ GA_IPA_DCA_robust(n_replicates) or GA_IPA_MI_robust(n_replicates)
 where n_replicates is the number of realizations of GA experiment, each time taking different random matchings as starting points.
 
 Here it is applied to a dataset of 5052 sequences of cognate histidine kinases and response regulators from the [P2CS](http://www.p2cs.org/) database. To run the code on the other datasets, unzip data from CoAlignments.zip, open the file src/GA_IPA_DCA_robust.jl or src/GA_IPA_DCA_robust.jl with your favorite editor, and replace protfile with the new protein name. 
+
+[![DOI](https://zenodo.org/badge/527516761.svg)](https://zenodo.org/badge/latestdoi/527516761)
